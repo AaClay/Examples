@@ -10,9 +10,8 @@
 
 [Four different Data Sets Plotted on Bar Graph while Switching Styles](https://github.com/AaClay/Examples/blob/main/4dset_chng_style.png)
 
-
-|---------|---------|
 |Tools|Version|
+|---------|---------|
 |Plotly|plotly-2.6.3.min.js|
 |Notepadqq|v2.0.0-beta+git|
 |FireFox|94.0 (64-bit)|
