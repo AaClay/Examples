@@ -1,0 +1,310 @@
+/* EXAMPLE CSS */
+/* Aaron I. Clay */
+/* 12-07-2021 1030 AM */ 
+/* Editor: Notpadqq: v2.0.0-beta+git on Linux MINT */
+
+/* Switch Styling Boxes - CHOICES */ 
+.style1OPT
+{
+	position:fixed;
+	top:5px;
+	left:5px;
+	height:15px;
+	width:15px;
+	border-radius:5px;
+	background-color:black;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+.style1OPT:hover
+{
+	box-shadow:3px 3px 6px grey;
+	background-color:grey;
+	cursor:pointer;
+}
+
+.style2OPT
+{
+	position:fixed;
+	top:25px;
+	left:5px;
+	height:15px;
+	width:15px;
+	border-radius:5px;
+	background-color:white;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+.style2OPT:hover
+{
+	box-shadow:3px 3px 6px grey;
+	cursor:pointer;
+}
+
+.style3OPT
+{
+	position:fixed;
+	top:45px;
+	left:5px;
+	height:15px;
+	width:15px;
+	border-radius:5px;
+	background-color:#285add;
+	border-width:1px;
+	border-style:solid;
+	border-color:#285add;
+}
+
+.style3OPT:hover
+{
+	box-shadow:3px 3px 6px grey;
+	opacity:0.85;
+	cursor:pointer;
+}
+
+.style4OPT
+{
+	position:fixed;
+	top:65px;
+	left:5px;
+	height:15px;
+	width:15px;
+	border-radius:5px;
+	background-color:#f5ea31;
+	border-width:1px;
+	border-style:solid;
+	border-color:#f5ea31;
+}
+.style4OPT:hover
+{
+	box-shadow:3px 3px 6px grey;
+	opacity:0.85;
+	cursor:pointer;
+}
+
+/* END STYLE SWITCHING - CHOICES */
+
+
+/* INFOs - READOUT - Wrapper */ 
+.readOut
+{
+	position:fixed;
+	left:25px;
+	top:17px;
+	border-style:solid;
+	border-right-width:1px;
+	border-right-color:grey;
+	border-bottom-width:1px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-color:grey;
+	height:50px;
+	width:200px;
+	border-radius:5px;
+	box-shadow:3px 6px 6px grey;
+}
+.readOutX
+{
+	font-family:"Tahoma",sans-serif;
+	font-size:0.9em;
+	margin-left:7px;
+	margin-top:7px;
+	
+}
+.tgtX
+{
+	font-family:"Tahoma",sans-serif;
+	font-size:0.9em;
+	margin-left:7px;
+	margin-top:7px;
+}
+.readOutY
+{
+	font-family:"Tahoma",sans-serif;
+	font-size:0.9em;
+	margin-left:7px;
+	margin-top:7px;
+	
+}
+.tgtY
+{
+	font-family:"Tahoma",sans-serif;
+	font-size:0.9em;
+	margin-left:7px;
+	margin-top:7px;
+}
+/* END INFOs - READOUT - Wrapper */
+
+/* DIV - Chart Type Wrapper */
+.chrtWrap
+{
+	position:fixed;
+	left: 3px;
+	top:87px;
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	background-color:white;
+	border-top-width:0px;
+	border-left-width:0px;
+	height:50px;
+	width:225px;
+	border-radius:7px;
+	box-shadow:3px 6px 6px grey;
+}
+
+
+	/* char selection cbo */
+.selC
+{
+	position:relative;
+	left:35px;
+	font-family:"Tahoma", sans-serif;
+	color:black;
+	font-size:0.9em;
+	margin-left:4px;
+	margin-top:4px;
+	text-align:center;
+	
+}
+
+.cboSel
+{
+	position:relative;
+	left:55px;
+	height:auto;
+	width:100px;
+	font-family:"Tahoma",sans-serif;
+	font-size:0.9em;
+	margin-top:3px;
+	color:blue;
+	background-color:white;
+	border-radius:9px;
+}
+
+
+/* DIV - END CHART TYPE WRAP */
+
+/* DIV - DataSet Selection */
+
+	/* chart select cbo - END */
+.cboDS
+{
+	position:fixed;
+	left: 3px;
+	top:153px;
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	background-color:white;
+	border-top-width:0px;
+	border-left-width:0px;
+	height:162px;
+	width:225px;
+	border-radius:7px;
+	box-shadow:3px 6px 6px grey;
+	visibility:hidden; /* DEBUG */	
+}
+	/* DataSet Selection - CBO */
+.selD
+{
+	position:relative;
+	left:35px;
+	font-family:"Tahoma", sans-serif;
+	color:black;
+	font-size:0.9em;
+	margin-left:4px;
+	margin-top:4px;
+	text-align:center;
+}
+	/* END DataSet Selection - CBO */
+.chkDS1
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+.sp_chkDS1
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+
+.chkDS2
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+.sp_chkDS2
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+.chkDS3
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+.sp_chkDS3
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+.chkDS4
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+.sp_chkDS4
+{
+	position:relative;
+	margin-top:5px;
+	font-family:"Tahoma", sans-serif;
+	font-size:0.9em;
+	
+}
+
+/* END DIV DataSet Seelction */ 
+
+
+/* DIV TGT DRAW : Graph Rendering */
+
+.tgtDraw
+{
+	position:fixed;
+	left:245px;
+	top:15px;
+	width:800px;
+	height:300px;
+	border-style:solid;
+	border-width:1px;
+	border-color:grey;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-radius:9px;
+}
+
+
+/* END Graph Rendering */

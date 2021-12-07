@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<!-- Author: Aaron I. Clay -->
+	<!-- Example Page : 12072021_1010 --> 
+	<!-- Editor: Notpadqq: v2.0.0-beta+git on Linux MINT --> 
+	<!-- Tested on Firefox 94.0 (64-bit) : Firefox for Linux MINT -->
+
+	<head>
+		<title>Example Page - 12-07-2021</title>
+		<meta charset='UTF-8' />
+		<meta language='ENGLISH' />
+		<script src='js/plotly-2.6.3.min.js'></script> <!-- Graphing Library --> 
+		<script src='js/sample_data.js'></script>
+		<script src='js/infos_js.js'></script>
+		<link rel='stylesheet' href='css/example_css.css'><!-- External Styles --> 
+	</head>
+
+	<body onload=get_infos(); >
+	<div id='styleOPTS'>
+		<div id='optDark' class='style1OPT' onclick=change_color('dark'); ></div>
+		<div id='optLight' class='style2OPT' onclick=change_color('light');></div>
+		<div id='optBlue' class='style3OPT' onclick=change_color('blue');></div>
+		<div id='optYEL' class='style4OPT' onclick=change_color('yellow');></div>
+		<div id='readOut' class='readOut'>
+			<span id='scrX' class='readOutX'>Screen X: </span>&nbsp;<span id='tgtX' class='tgtX'></span><br />
+			<span id='scrY' class='readOutY'>Screen Y: </span>&nbsp;<span id='tgtY' class='tgtY'></span>
+		</div>
+		<div id='chrtType' class='chrtWrap'> 
+			<span id='chcSP' class='selC'>Select Chart Type: </span><br />
+			<select id='cboSel' class='cboSel' onchange=change_chart(this.value); >
+				<option>Bar</option>
+				<option>Line</option>
+				<option>Pie</option>
+			</select>
+		</div>
+		<div id='cboDS' class='cboDS'><!-- Data Set selection dependant upon [chart Type] --> 
+		</div>
+		<div id='tgtDraw' class='tgtDraw'></div><!-- Graph Drawn here --> 
+	</div>
+		
+</body>
